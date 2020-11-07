@@ -24,30 +24,29 @@ int main(int argc, char *argv[]){
 
 
     if (d1 > d2){
-      printf("2\n\n");
+      printf("e2\n\n");
     }
     else if(d1 < d2){
-      printf("1\n\n");
+      printf("e1\n\n");
     }
     else {        //d1==d2
       if(e1 >= e2){
-        printf("1\n\n");
+        printf("e1\n\n");
       }
       else {
-        printf("2\n\n");
+        printf("e2\n\n");
       }      
     }
 
   return 0;
   }
   else if(e1==999 && (e2 >= -100 && e2 <= 100) && (n >= -100 && n <= 100)) {
-    printf("2\n");
+    printf("e2\n");
   }
   else if(e2==999 && (e1 >= -100 && e1 <= 100) && (n >= -100 && n <= 100)){
-    printf("1\n");
+    printf("e1\n");
   }
   else {
    printf("error\n\n");
   }
- 
 }
